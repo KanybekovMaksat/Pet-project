@@ -1,0 +1,13 @@
+@import '../../assets/Styles/base.scss';
+
+.Nav {
+    .NavContent {
+        display: flex;
+        .NavItem {
+            margin-right: 20px;
+            .NavRef{ 
+                @include typography( 'Montserrat', 15px, 600, $black-color, 18px );
+            }
+        }
+    }
+}

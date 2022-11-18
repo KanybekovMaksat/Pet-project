@@ -1,0 +1,41 @@
+@import "../../assets/Styles/base.scss";
+
+.Header {
+    .HeaderContent {
+        .HeaderBox {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            margin-top: 10px;
+
+            .HeaderDelivery {
+                display: flex;
+
+                .HeaderDeliveryTitle {
+                    @include typography('Montserrat', 18px, 600, $black-color, 22px)
+                }
+
+                .HeaderDeliveryCity {
+                    margin-left: 10px;
+
+                    @include typography('Montserrat', 18px, 600, $primary-color, 22px);
+                }
+            }
+
+            .HeaderTell {
+                margin-left: 30px;
+                
+                @include typography('Montserrat', 26px, 700, $primary-color, 32px);
+            }
+        }
+
+        .HeaderBox:last-child {
+            margin-top: 20px;
+
+            .HeaderSignIn {
+                @include typography('Montserrat', 16px, 700, gray, 28px)
+            }
+        }
+    }
+}

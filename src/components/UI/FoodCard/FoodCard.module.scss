@@ -1,0 +1,32 @@
+@import '../../../assets/Styles/base.scss';
+.Card{
+    width: 253px;
+    height: 466px;
+
+    padding: 10px;
+
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 1);
+    -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 1);
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 1);
+    
+
+    .CardTitle{
+        margin-top: 5px;
+
+        @include typography('Montserrat', 24px, 800, $black-color, 28px)
+    }
+    .CardDescription{
+        margin-top: 18px;
+
+        @include typography('Montserrat', 13px, 500,  #686466, 19px);
+    }
+    .CardOrder{
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 23px;
+        .CardPrice{
+            @include typography('Montserrat',22px, 700, $black-color, 19px);
+        }
+    }
+}

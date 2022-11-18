@@ -1,0 +1,19 @@
+@import '../../../assets/Styles/base.scss';
+
+
+.LogoBox{
+    display: flex;
+    .LogoName{
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 14px;
+        
+        .LogoTitle{
+            @include typography('Poppins', 39px, 800, $black-color, 47px)
+        }
+        .LogoSubtitle{
+            @include typography('Montserrat', 10px, 600, $black-color, 11px)
+        }
+    }
+}

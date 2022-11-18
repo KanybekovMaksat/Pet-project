@@ -1,0 +1,16 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+$primary-color:#FF2E65;
+$light-color:white;
+$black-color:#000000;
+
+@mixin typography ($ff, $fz, $fw, $fc, $fh){
+    font-family: $ff;
+    font-size: $fz;
+    font-weight: $fw;
+    color: $fc;
+    line-height: $fh;
+}
