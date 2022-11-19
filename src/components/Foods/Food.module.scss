@@ -1,0 +1,14 @@
+@import '../../assets/Styles/base.scss';
+
+.FoodTitle{
+    @include typography('Montserrat', 30px, 700, $primary-color, 37px)
+}
+
+.FoodContent{
+    .FoodBox{
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 50px;
+    }
+}

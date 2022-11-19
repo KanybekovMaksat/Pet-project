@@ -1,0 +1,17 @@
+@import '../../assets/Styles/base.scss';
+
+
+.NewPrContent{
+        background-image: url(../../assets/image/onion.png);
+        background-repeat: no-repeat;
+        height: 200px;
+
+  .NewPrTitle{
+    @include typography('Montserrat', 24px, 700, $black-color, 29px);
+}
+.NewPrBox{
+    display: flex;
+    justify-content: space-evenly;
+}  
+
+}

@@ -7,7 +7,8 @@ const Button = ({ type, children}) => {
             (type ==='cart' && 'cart') || 
             (type === 'send' && 'send') ||
             (type === 'call' && "call") ||
-            (type === 'card' && 'card')
+            (type === 'card' && 'card') ||
+            (type ===  'slider' && 'slider')
         }`}
         >{children}</a>
     );

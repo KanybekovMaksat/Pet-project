@@ -1,5 +1,7 @@
 @import '../../../assets/Styles/base.scss';
 .Card{
+    // display: grid;
+    // grid-template-rows: repeat(10, 45px);
     width: 253px;
     height: 466px;
 
@@ -9,18 +11,22 @@
     -moz-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 1);
     box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 1);
     
-
+    .CardImg{
+    // grid-row: 1/6;
+    }
     .CardTitle{
         margin-top: 5px;
 
         @include typography('Montserrat', 24px, 800, $black-color, 28px)
     }
     .CardDescription{
+        // grid-row: 7/9;
         margin-top: 18px;
 
         @include typography('Montserrat', 13px, 500,  #686466, 19px);
     }
     .CardOrder{
+        // grid-row: 9/10;
         display: flex;
         justify-content: space-between;
 
