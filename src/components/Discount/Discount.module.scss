@@ -1,0 +1,37 @@
+@import '../../assets/Styles/base.scss';
+
+.DiscountContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .DiscountTitle{
+        @include typography ('Montserrat', 44px, 700, $primary-color, 54px)
+    }
+    .DiscountWrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2, 202px);
+        column-gap: 30px;
+        margin: 50px 0px ;
+        .DiscountItem{
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .DiscountItem:nth-child(2){
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        .DiscountItem:nth-child(3){
+            grid-column: 4/5;
+            grid-row: 1/2;
+        }
+        .DiscountItem:nth-child(4){
+            grid-column: 3/4;
+            grid-row: 2/3;
+        }
+        .DiscountItem:last-child{
+            grid-column: 4/5;
+            grid-row: 2/3;
+        }
+    }
+}

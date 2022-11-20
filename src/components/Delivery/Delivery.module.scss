@@ -1,0 +1,18 @@
+@import '../../assets/Styles/base.scss';
+
+.Delivery{
+    background: #E3ECF5;
+    height: 688px;
+    padding: 60px 0px;
+    .DeliveryContent{
+        .DeliveryTitle{
+            text-align: center;
+            @include typography('Montserrat', 30px, 700, $primary-color, 37px)
+        }
+        .DeliveryPhase{
+            margin: 50px 0px;
+            display: flex;
+            justify-content: space-between ;
+        }
+    }
+}
