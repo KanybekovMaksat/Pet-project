@@ -11,7 +11,7 @@ import Footer from "../../Footer/index";
 import PrimaryImg from '../../../assets/image/SliderIMG/SliderPrimaryIMG.png';
 import SecondImg from '../../../assets/image/SliderIMG/SliderSecondIMG.png';
 import ThirdImg from '../../../assets/image/SliderIMG/SliderThirdIMG.png';
-
+import stikerImg from '../../../assets/image/noodles.png'
 
 const HomePage = () => {
 
@@ -20,6 +20,14 @@ const HomePage = () => {
     {url:SecondImg},
     {url:ThirdImg},
   ]
+
+  const stickerstyles = {
+    width: '150px',
+    height: "150px",
+    position: 'fixed',
+    bottom: "0",
+    right:'0'
+  }
 
   return (
     <>
@@ -32,6 +40,7 @@ const HomePage = () => {
       <Delivery/>        
       </main>
       <Footer/>
+      <div style={stickerstyles}><img src={stikerImg} alt="" /></div>
     </>
   );
 };

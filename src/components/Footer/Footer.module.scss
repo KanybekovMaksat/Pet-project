@@ -1,0 +1,48 @@
+@import '../../assets/Styles/base.scss';
+
+
+.FooterContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 56px;
+    .FooterSubtitle{
+        @include typography('Montserrat', 16px, 700, $black-color, 28px)
+    }
+    .FooterLeft {
+        .FooterBox {
+            margin-top: 25px;
+            display: flex;
+            .FooterRef{
+                a{
+                    @include typography('Montserrat', 16px, 600, $black-color, 28px)
+                }
+            }
+            .FooterPay {
+                margin-left: 64px;
+                .FooterNavPay {
+                    display: flex;
+                    a {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .FooterRight {
+        .FooterSocial {
+            display: grid;
+            grid-template-columns: repeat(4, 104px);
+            grid-template-rows: repeat(2, 60px);
+            gap: 14px;
+            margin: 50px 0px;
+            .FooterSocialItem:last-child {
+                grid-column: 3/5;
+                grid-row: 2/3;
+            }
+        }
+        .FooterTelRef {
+            @include typography('Montserrat', 26px, 700, $primary-color, 32px);
+            margin-right: 50px;
+        }
+    }
+}
