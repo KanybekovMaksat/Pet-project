@@ -1,0 +1,16 @@
+.HomePage{
+    main{
+        section{
+            margin-top: 28px;
+        }
+        section:nth-child(2){
+            margin-top: 100px;
+        }
+        section:nth-child(3){
+            margin-top: 64px;
+        }
+        section:last-child{
+            margin-top: 62px;
+        }
+    }
+}

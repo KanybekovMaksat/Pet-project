@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 
 //import image arrow
-import arrowImg from "../../assets/image/arrow.png";
+import arrowImg from "../../../assets/image/arrow.png";
 
 //import button
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 
 //import styles
 import styles from "./Slider.module.scss";

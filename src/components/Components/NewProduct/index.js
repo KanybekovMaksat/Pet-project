@@ -1,10 +1,10 @@
 import React from 'react'
 
-import NewCard from '../UI/NewPrCard/index'
+import NewCard from '../../UI/NewPrCard/index'
 
 import styles from './NewProduct.module.scss'
 
-const { getNewProduct} = require("../../db/newproduct");
+const { getNewProduct} = require("../../../db/newproduct");
 const news = getNewProduct();
 
 const NewProduct = () => {

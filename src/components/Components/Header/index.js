@@ -1,13 +1,14 @@
 import React from "react";
 
+
 // import Nav section
 import Navs from "../Navs";
 
 //import btn
-import Button from "../UI/Button";
+import Button from "../../UI/Button";
 
 //import LogoBox
-import Logo from "../UI/Logo";
+import Logo from "../../UI/Logo";
 
 // import styles
 import styles from "./Header.module.scss";

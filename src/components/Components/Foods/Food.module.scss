@@ -1,4 +1,4 @@
-@import '../../assets/Styles/base.scss';
+@import '../../../assets/styles/base.scss';
 
 .FoodTitle{
     @include typography('Montserrat', 30px, 700, $primary-color, 37px)

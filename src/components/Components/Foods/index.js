@@ -1,10 +1,10 @@
 import React from "react";
 
-import FoodCard from "../UI/FoodCard";
+import FoodCard from "../../UI/FoodCard";
 
 import styles from "./Food.module.scss";
 
-const { getFoodCard } = require("../../db/foodcard.db");
+const { getFoodCard } = require("../../../db/foodcard.db");
 const foods = getFoodCard();
 
 const Foods = () => {

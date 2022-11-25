@@ -1,9 +1,9 @@
 import React from "react";
 
 import styles from "./Delivery.module.scss";
-import PhaseDelivery from "../UI/PhaseDelivery/index";
+import PhaseDelivery from "../../UI/PhaseDelivery";
 
-const { getPhaseDelivery } = require("../../db/phase.db");
+const { getPhaseDelivery } = require("../../../db/phase.db");
 const phases = getPhaseDelivery();
 
 const Delivery = () => {

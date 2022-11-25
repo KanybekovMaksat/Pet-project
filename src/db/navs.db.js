@@ -9,6 +9,6 @@ export function getNavs() {
         {title:"Бакалея", link:"/", id:7},
         {title:"Акции", link:"/", id:8},
         {title:"Комбо", link:"/", id:9},
-        {title:"Контакты", link:"/", id:10}
+        {title:"Контакты", link:"/contact", id:10}
     ]
 }

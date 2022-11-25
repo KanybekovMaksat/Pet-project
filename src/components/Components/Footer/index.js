@@ -1,16 +1,16 @@
 import React from "react";
 
-import visaImg from '../../assets/image/visaCard.png';
-import paypalImg from '../../assets/image/PayPal.png';
-import masterCardImg from '../../assets/image/masterCard.png';
+import visaImg from '../../../assets/image/visaCard.png';
+import paypalImg from '../../../assets/image/PayPal.png';
+import masterCardImg from '../../../assets/image/masterCard.png';
 
-import Logo from "../UI/Logo";
-import Button from "../UI/Button";
+import Logo from "../../UI/Logo";
+import Button from "../../UI/Button";
 
 import styles from "./Footer.module.scss";
-import SocialIcon from "../UI/SocialIcon/index";
+import SocialIcon from "../../UI/SocialIcon/index";
 
-const {getSocialIcon} = require("../../db/socialIcon.db");
+const {getSocialIcon} = require("../../../db/socialIcon.db");
 const socialIcons = getSocialIcon();
 
 
