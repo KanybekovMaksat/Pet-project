@@ -1,0 +1,25 @@
+@import '../../../assets/styles/base.scss';
+
+// 
+
+.ActionCard{
+    width: 350px;
+    height: 391px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    .ActionCardContent{
+        max-width: 323px;
+        margin: 0 auto;
+        .ActionCardTitle{
+            margin-top: 13px;
+
+            @include typography('Montserrat', 20px, 700, $black-color, 28px )
+        }
+        .ActionCardDesc{
+            margin: 7px 0px 20px 0px;
+            
+            @include typography('Montserrat', 13px, 500, $black-color, 20px )
+        }
+    }
+}

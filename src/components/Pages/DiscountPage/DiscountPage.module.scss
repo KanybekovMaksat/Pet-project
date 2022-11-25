@@ -1,0 +1,13 @@
+@import '../../../assets/styles/base.scss';
+.DiscountPageTitle{
+    margin-top: 29px;
+    @include typography('Montserrat', 30px, 700, $primary-color,36px )
+}
+.DiscountPageContent{
+    margin: 25px 0px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(4, 391px);
+    gap: 30px;
+}
